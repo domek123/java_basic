@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class zad06 {
     public static void main(String[] args) {
-        System.out.println(check("Nad Niemnem Elizy Orzeszkowej"));
+        System.out.println(check("bob"));
     }
     private static String check(String text){
         //95 - 122

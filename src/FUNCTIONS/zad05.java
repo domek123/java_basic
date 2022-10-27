@@ -2,7 +2,7 @@ package FUNCTIONS;
 
 public class zad05 {
     public static void main(String[] args) {
-        System.out.println(printDiament('Z'));
+        System.out.println(printDiament('D'));
     }
 
     private static String printDiament(char c) {
@@ -11,9 +11,10 @@ public class zad05 {
         char basicChar = 'A';
         int basicCharId = 65;
         int count = cId-basicCharId + cId-basicCharId + 1;
+
         for(int i = 0; i<count;i++){
             for(int j = 0;j<count;j++){
-                if(j == c-basicChar|| j == (count-1) - (cId - basicChar)){
+                if(j == c-basicChar || j == (count-1) - (cId - basicChar)){
                     text+=basicChar;
                 }else{
                     text+=".";

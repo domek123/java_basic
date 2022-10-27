@@ -29,6 +29,7 @@ public class zad09 {
             }
             numbers.add(index);
         }
+
         for(Integer number : numbers){
             System.out.println("== Ilość wystąpień: " + number + " ==");
             for(String word : wordList){

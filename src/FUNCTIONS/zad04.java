@@ -39,6 +39,7 @@ public class zad04 {
     private static Integer score(Character key){
         return map.get(key);
     }
+
     private static Integer scoreWord(String word){
         int suma = 0;
         for(Character ch : word.toCharArray()){
